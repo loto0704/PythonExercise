@@ -12,5 +12,5 @@ Python初心者向けの演習問題です。<br>
 
 ## 演習1
 課題概要：ライブラリ一覧の読み込み&Excelへ書き出し<br>
-問題ファイル：exercise_1.md<br>
-解答コード：exercise_1.py<br>
+問題ファイル：exercise1.md<br>
+解答コード：exercise1.py<br>
