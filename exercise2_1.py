@@ -1,13 +1,12 @@
-import json
 import sys
-
+import json
 import requests
 
 
 BASE_URL = "https://www.googleapis.com/books/v1/volumes"
 
 
-def create_url(search_isbn):
+def create_url(search_isbn) -> str:
     request_url = f"{BASE_URL}?q=isbn:{search_isbn}"
     print(f"URL：{request_url}")
     return request_url
