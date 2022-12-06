@@ -10,7 +10,19 @@ Python初心者向けの演習問題です。<br>
 - Pythonの基礎的な文法知識 
 - 仮想環境にライブラリをインストールができること
 
-## 演習1
+## 演習
+### 演習1
 課題概要：ライブラリ一覧の読み込み&Excelへ書き出し<br>
 問題ファイル：exercise1.md<br>
 解答コード：exercise1.py<br>
+
+### 演習2-1
+課題概要：<br>
+問題ファイル：exercise2_1.md<br>
+解答コード：exercise2_1.py<br>
+
+### 演習2-2
+課題概要：<br>
+問題ファイル：exercise2_2.md<br>
+解答コード：exercise2_2.py<br>
+
