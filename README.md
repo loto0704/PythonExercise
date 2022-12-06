@@ -17,12 +17,12 @@ Python初心者向けの演習問題です。<br>
 解答コード：exercise1.py<br>
 
 ### 演習2-1
-課題概要：<br>
+課題概要：requestsモジュールを利用した、APIへアクセス<br>
 問題ファイル：exercise2_1.md<br>
 解答コード：exercise2_1.py<br>
 
 ### 演習2-2
-課題概要：<br>
+課題概要：演習2-1をベースにCSVファイルのデータをまとめて検索<br>
 問題ファイル：exercise2_2.md<br>
 解答コード：exercise2_2.py<br>
 

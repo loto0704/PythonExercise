@@ -1,8 +1,7 @@
-import time
-
-from exercise2_1 import create_url, api_request, json_process
 import sys
 import pandas
+import time
+from exercise2_1 import create_url, api_request, json_process
 
 
 def main():
