@@ -28,21 +28,21 @@ requestsモジュールを利用し、「Google Books※1」が用意してい�
 > 429711111X
 
 #### アウトプット
-> https://www.googleapis.com/books/v1/volumes?q=isbn:9784297111113
-タイトル：Python実践入門
-著者1人目：陶山嶺
-429711111X
-9784297111113
+> URL：https://www.googleapis.com/books/v1/volumes?q=isbn:9784297111113
+> タイトル：Python実践入門
+> 著者1人目：陶山嶺
+> 429711111X
+> 9784297111113
 
 ### ISBN-13
 #### インプット
 > 9784297111113
 #### アウトプット
-> https://www.googleapis.com/books/v1/volumes?q=isbn:9784297111113
-タイトル：Python実践入門
-著者1人目：陶山嶺
-429711111X
-9784297111113
+> URL：https://www.googleapis.com/books/v1/volumes?q=isbn:9784297111113
+> タイトル：Python実践入門
+> 著者1人目：陶山嶺
+> 429711111X
+> 9784297111113
 
 
 ## 作成手順・ヒント
