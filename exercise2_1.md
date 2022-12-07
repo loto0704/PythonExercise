@@ -1,4 +1,4 @@
-# 演習2：requestsモジュールを利用した、APIへアクセス
+# 演習2-1：requestsモジュールを利用した、APIへアクセス
 
 ## 課題内容
 requestsモジュールを利用し、「Google Books※1」が用意しているのAPI（Google Books API※2）アクセスし書籍情報を取得。
