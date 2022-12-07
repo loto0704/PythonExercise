@@ -51,6 +51,8 @@ requestsモジュールを利用し、「Google Books※1」が用意してい�
      - ```pip install requests```
 - アクセスするURLを生成
   - ベースURL「https://www.googleapis.com/books/v1/volumes」
+  - 今回はISBNにて検索するためベースURLの「volumes」の後ろに「?q=isbn:」を挿入
+  - 例：```https://www.googleapis.com/books/v1/volumes?q=isbn:<ISBNコード>```
 - 生成したURLにアクセス
   - 問題なければ、書籍情報が返ってくる
 - 書籍情報を解析・出力
