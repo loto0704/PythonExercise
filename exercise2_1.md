@@ -47,7 +47,8 @@ requestsモジュールを利用し、「Google Books※1」が用意してい�
 
 ## 作成手順・ヒント
 - 事前準備
-  - モジュールインストール「```pip install requests```」
+  - APIアクセスするため「requests」モジュールをインストール
+     - ```pip install requests```
 - アクセスするURLを生成
   - ベースURL「https://www.googleapis.com/books/v1/volumes」
 - 生成したURLにアクセス
