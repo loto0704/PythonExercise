@@ -7,7 +7,7 @@ import pandas
 def txt_read() -> pandas.DataFrame:
     """テキストファイル「requirements.txt」を読み込み→Dataframeに格納"""
     requirements_path = sys.argv[1]
-    pd_data = pandas.DataFrame(columns=["Library_name", "Version"])
+    data_list = []
     with open(requirements_path, mode='r', encoding='utf-8') as f:
         library_list = f.readlines()
         for i in range(len(library_list)):
@@ -16,7 +16,8 @@ def txt_read() -> pandas.DataFrame:
                  "Version": library_list[i].split("==")[1].replace("\n", ""),  # 改行コードが含まれているので、置換で削除
                  },
                 index=[i])
-            pd_data = pandas.concat([pd_data, data])  # データフレームにデータを追加（結合）
+            data_list.append(data)
+        pd_data = pandas.concat(data_list)  # データフレームにデータを追加（結合）
     return pd_data
 
 
