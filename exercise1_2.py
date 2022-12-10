@@ -29,7 +29,7 @@ def main():
     export_folder_path = os.path.expanduser("~/Downloads")
     export_full_path = f"{export_folder_path}/{export_file_name}"
 
-    # 事前に「pip install pandas openpyxl」を実行
+    # 事前に「pip install openpyxl」を実行
     pd_data.to_excel(export_full_path, index=False, header=True)
 
 
