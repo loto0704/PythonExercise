@@ -28,7 +28,7 @@ requestsモジュールを利用し、「Google Books※1」が用意してい�
 > 429711111X
 
 #### アウトプット
-> URL：https://www.googleapis.com/books/v1/volumes?q=isbn:9784297111113
+> URL：https://www.googleapis.com/books/v1/volumes?q=isbn:429711111X
 > タイトル：Python実践入門
 > 著者1人目：陶山嶺
 > 429711111X
